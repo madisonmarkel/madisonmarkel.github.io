@@ -1,0 +1,194 @@
+<style>
+/*PAGE LAYOUT*/
+  .site_container {
+    padding: 3em 3em;
+  }
+ .site_width {
+   padding: 1em 3em;
+  }
+  .text_width {
+    max-width: 50rem;
+    margin: 0 auto;
+    line-height: 2;
+  }
+  .table_images {
+    max-height: 20em;
+    padding: 1em;
+  }
+ /*PHOTOS*/
+  .photo_reel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+  }
+  .shrink_photo {
+    flex-shrink: 1;
+  }
+ /*TWO COLUMNS*/
+  .two_columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+  }
+ /*FOOTER*/
+  footer {
+    background:#b9bcb8;
+    padding: 2em 0;
+  }
+/*NAVIGATION*/
+ .app_nav a {
+  display: block;
+  padding: .2em;
+  border-bottom: none;
+  text-align: center;
+  font-size: 110%;
+  text-transform: uppercase;
+  color: #000000;
+}
+@media screen and (min-width: 767px) {
+  .app_nav a {
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-bottom: 5px;
+    padding: 0 1em;
+    border: none;
+    text-align: center;
+    font-size: 110%;
+  }
+  .app_nav a:hover {
+    color: rgba(0,0,0,0.4);
+  }
+}
+.navigation {
+  text-align:center;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background:#b9bcb8;
+  color:white;
+  min-width: 160px;
+  text-align: center;
+  margin-left: 0;
+  border:none;
+  padding: .2em;
+  z-index: 1;
+}
+.dropdown_content a {
+  color:white;
+  margin-left: 0;
+  border-bottom: none;
+}
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+/*BODY*/
+ body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  line-height: 1.3;
+  }
+ .hero_image {
+  background: #ffffff;
+  color: #15300c;
+  }
+/*SUPPORT STYLES*/
+ h1 h2 h3{
+  font-family: 'Poiret One', cursive;
+  }
+ h4 {
+  text-transform: uppercase;
+  }
+ .text_center {
+  text-align: center;
+  }
+ .button {
+  background: #380523;
+  color:#ffffff;
+  border:none;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 1px 1px #011905;
+  padding: 1em 2.5em;
+ }
+ .button:hover {
+  background:#440329;
+  color:#ffffff;
+  border:none;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 1px 1px #000;
+  padding: 1em 2.5em;
+ }
+/*INDEX LANDING PAGE*/
+ .index_header {
+   padding: 11em 0;
+   background: url("images/index_background.jpg") repeat fixed center center;
+   /*background: #b9bcb8;*/
+  }
+  .landing_page_background {
+    background: url("images/index_background.jpg") repeat fixed center center;
+  }
+
+/*ABOUT*/
+  .studio_image {
+    height: 20em;
+  }
+/*PAINT*/
+.feature_work {
+  padding: 4em 0;
+  margin-bottom: 1em;
+}
+.decay_feature {
+  background: url(images/variations2_valley_angle.jpg) repeat fixed center center;
+}
+.petal_feature {
+  background: url(images/spring_rain_feature.jpg) repeat fixed center center;
+}
+.landscape_feature {
+  background: url(images/yellow_mountains.jpg) repeat fixed center center;
+}
+.studies_feature {
+  background: url(images/decaying_leaf.jpg) repeat fixed center center;
+}
+.want_more_feauture {
+  background: url(images/bon_iver_album_sketch.jpg) repeat fixed center center;
+}
+.feature_work a {
+  color: white;
+  text-shadow:4px 4px 8px black;
+}
+/*DESIGN*/
+.robo_gurlz_feature {
+  background: url(images/robo_gurlsss3_sketch.jpg) repeat fixed center center;
+}
+.websites_feature {
+  background: url(images/code_feature.png) repeat fixed top center;
+}
+/* CONTACT*/
+input, textarea {
+  background:#b9bcb8;
+  width: 36em;
+  background:#b9bcb8;
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #ffffff;
+  padding:10px;
+  border-radius: 6px;
+  box-shadow:rgba(0, 0, 0, 0.2) 0 3px 5px 0 inset;
+}
+input [type="text"] {
+  width: 36em;
+  height: 36em;
+}
+</style>
