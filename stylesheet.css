@@ -133,11 +133,11 @@
 /*INDEX LANDING PAGE*/
  .index_header {
    padding: 11em 0;
-   background: url("https://raw.githubusercontent.com/madisonmarkel/madisonmarkel.github.io/master/index_background.jpg") repeat fixed center center;
+   background: url("https://madisonmarkel.github.io/index_background.jpg") repeat fixed center center;
    /*background: #b9bcb8;*/
   }
   .landing_page_background {
-    background: url("https://raw.githubusercontent.com/madisonmarkel/madisonmarkel.github.io/master/index_background.jpg") repeat fixed center center;
+    background: url("https://madisonmarkel.github.io/index_background.jpg") repeat fixed center center;
   }
 
 /*ABOUT*/
@@ -150,19 +150,19 @@
   margin-bottom: 1em;
 }
 .decay_feature {
-  background: url("https://raw.githubusercontent.com/madisonmarkel/madisonmarkel.github.io/master/variations2_valley_angle.jpg") repeat fixed center center;
+  background: url("https://madisonmarkel.github.io/variations2_valley_angle.jpg") repeat fixed center center;
 }
 .petal_feature {
-  background: url("https://raw.githubusercontent.com/madisonmarkel/madisonmarkel.github.io/master/spring_rain_feature.JPG") repeat fixed center center;
+  background: url("https://madisonmarkel.github.io/spring_rain_feature.JPG") repeat fixed center center;
 }
 .landscape_feature {
-  background: url("https://github.com/madisonmarkel/madisonmarkel.github.io/blob/master/yellow_mountains.jpg") repeat fixed center center;
+  background: url("https://madisonmarkel.github.io/yellow_mountains.jpg") repeat fixed center center;
 }
 .studies_feature {
-  background: url("https://github.com/madisonmarkel/madisonmarkel.github.io/blob/master/decaying_leaf.jpg") repeat fixed center center;
+  background: url("https://madisonmarkel.github.io/decaying_leaf.jpg") repeat fixed center center;
 }
 .want_more_feauture {
-  background: url("https://github.com/madisonmarkel/madisonmarkel.github.io/blob/master/bon_iver_album_sketch.JPG") repeat fixed center center;
+  background: url("https://madisonmarkel.github.io/bon_iver_album_sketch.JPG") repeat fixed center center;
 }
 .feature_work a {
   color: white;
@@ -170,10 +170,10 @@
 }
 /*DESIGN*/
 .robo_gurlz_feature {
-  background: url("https://github.com/madisonmarkel/madisonmarkel.github.io/blob/master/robo_gurlsss3_sketch.jpg") repeat fixed center center;
+  background: url("https://madisonmarkel.github.io/robo_gurlsss3_sketch.jpg") repeat fixed center center;
 }
 .websites_feature {
-  background: url("https://github.com/madisonmarkel/madisonmarkel.github.io/blob/master/code_feature.png") repeat fixed top center;
+  background: url("https://madisonmarkel.github.io/code_feature.png") repeat fixed top center;
 }
 /* CONTACT*/
 input, textarea {
