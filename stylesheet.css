@@ -1,19 +1,75 @@
 <style>
 /*PAGE LAYOUT*/
   .site_container {
-    padding: 3em 3em;
-  }
- .site_width {
-   padding: 1em 3em;
+    padding: 3em 3em 5em;
+    margin: 0;
   }
   .text_width {
     max-width: 50rem;
     margin: 0 auto;
     line-height: 2;
+    padding:1em 2em 3em;
   }
   .table_images {
     max-height: 20em;
     padding: 1em;
+  }
+
+  .col_half{
+    width:50%;
+  }
+  .col_one_third {
+    width: 33%;
+  }
+  .cols {
+    display: block;
+    margin: 0;
+    vertical-align: baseline;
+  }
+  .cols:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+  }
+  .cols > div {
+    float: left;
+    box-sizing: border-box;
+  }
+  @media screen and (min-width: 767px) {
+  .cols {
+    clear: both;
+  }
+   .cols:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .cols > div {
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 1px;
+    margin-right: 4.2%;
+  }
+  .cols > div:last-of-type {
+    margin-right: 0;
+  }
+  .cols > div > *:first-child {
+    margin-top: 0;
+  }
+  .col_half {
+    width: 47.9%;
+  }
+  .col_one_third {
+    width: 30.53333%;
+  }
   }
  /*PHOTOS*/
   .photo_reel {
@@ -27,21 +83,16 @@
   .shrink_photo {
     flex-shrink: 1;
   }
- /*TWO COLUMNS*/
-  .two_columns {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: stretch;
-  }
  /*FOOTER*/
   footer {
-    background:#b9bcb8;
-    padding: 2em 0;
+    background:#747971;
+    padding: 1.5em 0 3em;
+    border-top: 0.8em groove #c8d0c4;
   }
 /*NAVIGATION*/
+ .nav_width {
+   padding: 1em 3em;
+  }
  .app_nav a {
   display: block;
   padding: .2em;
@@ -111,6 +162,18 @@
  h4 {
   text-transform: uppercase;
   }
+  .white_feature_text {
+    color:white;
+    text-shadow:4px 4px 8px black;"
+  }
+  a {
+    color:#380523;
+    cursor: pointer;
+  }
+  a:hover {
+    color:#380523;
+    cursor: pointer;
+  }
  .text_center {
   text-align: center;
   }
@@ -130,14 +193,17 @@
   box-shadow: 1px 1px 1px 1px #000;
   padding: 1em 2.5em;
  }
+ .no_decoration {
+  text-decoration: none;
+ }
 /*INDEX LANDING PAGE*/
  .index_header {
-   padding: 11em 0;
-   background: url("https://madisonmarkel.github.io/index_background.jpg") repeat fixed center center;
+   padding: 13em 0;
+   background: url("http://madisonmarkel.com/index_background.jpg") repeat fixed center center;
    /*background: #b9bcb8;*/
   }
   .landing_page_background {
-    background: url("https://madisonmarkel.github.io/index_background.jpg") repeat fixed center center;
+    background: url("http://madisonmarkel.com/index_background.jpg") repeat fixed center center;
   }
 
 /*ABOUT*/
@@ -150,19 +216,19 @@
   margin-bottom: 1em;
 }
 .decay_feature {
-  background: url("https://madisonmarkel.github.io/variations2_valley_angle.jpg") repeat fixed center center;
+  background: url("http://madisonmarkel.com/variations2_valley_angle.jpg") repeat fixed center center;
 }
 .petal_feature {
-  background: url("https://madisonmarkel.github.io/spring_rain_feature.JPG") repeat fixed center center;
+  background: url("http://madisonmarkel.com/spring_rain_feature.JPG") repeat fixed center center;
 }
 .landscape_feature {
-  background: url("https://madisonmarkel.github.io/yellow_mountains.jpg") repeat fixed center center;
+  background: url("http://madisonmarkel.com/yellow_mountains.jpg") repeat fixed center center;
 }
 .studies_feature {
-  background: url("https://madisonmarkel.github.io/decaying_leaf.jpg") repeat fixed center center;
+  background: url("http://madisonmarkel.com/decaying_leaf.jpg") repeat fixed center center;
 }
 .want_more_feauture {
-  background: url("https://madisonmarkel.github.io/bon_iver_album_sketch.JPG") repeat fixed center center;
+  background: url("http://madisonmarkel.com/bon_iver_album_sketch.JPG") repeat fixed center center;
 }
 .feature_work a {
   color: white;
@@ -170,10 +236,10 @@
 }
 /*DESIGN*/
 .robo_gurlz_feature {
-  background: url("https://madisonmarkel.github.io/robo_gurlsss3_sketch.jpg") repeat fixed center center;
+  background: url("http://madisonmarkel.com/robo_gurlsss3_sketch.jpg") repeat fixed center center;
 }
 .websites_feature {
-  background: url("https://madisonmarkel.github.io/code_feature.png") repeat fixed top center;
+  background: url("http://madisonmarkel.com/code_feature.png") repeat fixed top center;
 }
 /* CONTACT*/
 input, textarea {
