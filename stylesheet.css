@@ -3,6 +3,7 @@
   .site_container {
     padding: 3em 3em 5em;
     margin: 0;
+    max-width: 70rem;
   }
   .text_width {
     max-width: 50rem;
@@ -10,21 +11,15 @@
     line-height: 2;
     padding:1em 2em 3em;
   }
-  .table_images {
-    max-height: 20em;
-    padding: 1em;
-  }
 
-  .col_half{
-    width:50%;
-  }
-  .col_one_third {
-    width: 33%;
-  }
+/*COLUMNS*/
+@media screen and (min-width: 767px) {
   .cols {
     display: block;
     margin: 0;
+    clear: both;
     vertical-align: baseline;
+    padding: 0 4em;
   }
   .cols:after {
     visibility: hidden;
@@ -36,27 +31,10 @@
   }
   .cols > div {
     float: left;
-    box-sizing: border-box;
-  }
-  @media screen and (min-width: 767px) {
-  .cols {
-    clear: both;
-  }
-   .cols:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-  }
-  .cols > div {
-    float: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     min-height: 1px;
-    margin-right: 4.2%;
   }
   .cols > div:last-of-type {
     margin-right: 0;
@@ -65,30 +43,13 @@
     margin-top: 0;
   }
   .col_half {
-    width: 47.9%;
+    width: 50%;
   }
   .col_one_third {
-    width: 30.53333%;
+    width: 33%;
   }
-  }
- /*PHOTOS*/
-  .photo_reel {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    align-content: stretch;
-  }
-  .shrink_photo {
-    flex-shrink: 1;
-  }
- /*FOOTER*/
-  footer {
-    background:#747971;
-    padding: 1.5em 0 3em;
-    border-top: 0.8em groove #c8d0c4;
-  }
+}
+
 /*NAVIGATION*/
  .nav_width {
    padding: 1em 3em;
@@ -145,6 +106,7 @@
 .dropdown:hover .dropdown_content {
   display: block;
 }
+
 /*BODY*/
  body {
   font-family: 'Raleway', sans-serif;
@@ -155,6 +117,12 @@
   background: #ffffff;
   color: #15300c;
   }
+@media screen and (max-width: 767px) {
+  body {
+    font-size:1.2em;
+  }
+}
+
 /*SUPPORT STYLES*/
  h1 h2 h3{
   font-family: 'Poiret One', cursive;
@@ -196,6 +164,41 @@
  .no_decoration {
   text-decoration: none;
  }
+
+/*PHOTOS*/
+@media screen and (max-width: 767px) {
+  .site_container img {
+    height: 10em;
+  }
+}
+  .table_images {
+    max-height: 20em;
+    padding: 1em;
+  }
+  @media screen and (max-width: 767px) {
+    .table_images {
+      max-height: 40em;
+    }
+  }
+  .photo_reel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+  }
+  .shrink_photo {
+    flex-shrink: 1;
+  }
+ 
+/*FOOTER*/
+  footer {
+    background:#747971;
+    padding: 1.5em 0 3em;
+    border-top: 0.8em groove #c8d0c4;
+  }
+
 /*INDEX LANDING PAGE*/
  .index_header {
    padding: 13em 0;
@@ -209,6 +212,12 @@
 /*ABOUT*/
   .studio_image {
     height: 20em;
+  }
+  @media screen and (max-width: 767px) {
+    .studio_image {
+      padding: 0em;
+      height: 14em;
+    }
   }
 /*PAINT*/
 .feature_work {
@@ -241,10 +250,23 @@
 .websites_feature {
   background: url("http://madisonmarkel.com/code_feature.png") repeat fixed top center;
 }
+
 /* CONTACT*/
+@media screen and (min-width: 767px) {
+  .contact_form {
+  padding: 0 5em;
+  align-content: center;
+}
+}
+@media screen and (max-width: 767px) {
+  .contact_form {
+  padding:0 2em;
+  align-content: center;
+}
+}
 input, textarea {
   background:#b9bcb8;
-  width: 36em;
+  width: 30em;
   background:#b9bcb8;
   box-sizing: border-box;
   display: block;
@@ -253,8 +275,10 @@ input, textarea {
   border-radius: 6px;
   box-shadow:rgba(0, 0, 0, 0.2) 0 3px 5px 0 inset;
 }
-input [type="text"] {
+@media screen and (max-width: 767px) {
+ input [type="text"] {
   width: 36em;
   height: 36em;
+ }
 }
 </style>
