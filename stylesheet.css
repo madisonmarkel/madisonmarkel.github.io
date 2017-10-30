@@ -6,10 +6,13 @@
     max-width: 70rem;
   }
   .text_width {
-    max-width: 50rem;
+    max-width: 60rem;
     margin: 0 auto;
     line-height: 2;
     padding:1em 2em 3em;
+  }
+  .padded_text {
+    padding: 0 5em;
   }
 
 /*COLUMNS*/
@@ -47,12 +50,13 @@
   }
   .col_one_third {
     width: 33%;
+    text-align: center;
   }
 }
 
 /*NAVIGATION*/
  .nav_width {
-   padding: 1em 3em;
+   padding: 0 3em 1em 3em;
   }
  .app_nav a {
   display: block;
@@ -80,7 +84,6 @@
 .navigation {
   text-align:center;
   margin: 0 auto;
-  padding: 1em 0;
 }
 .dropdown {
   position: relative;
@@ -124,6 +127,18 @@
 }
 
 /*SUPPORT STYLES*/
+.logo {
+  height:5em;
+  padding: 1em;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 2em;
+  }
+}
+.logo_section {
+  margin: 0 auto;
+}
  h1 h2 h3{
   font-family: 'Poiret One', cursive;
   }
@@ -190,6 +205,75 @@
   }
   .shrink_photo {
     flex-shrink: 1;
+  }
+  /*SCROLLING PHOTOS*/
+  .scrolling_photo_container {
+    overflow: hidden;
+    margin: 50px auto;
+    background: white;
+  }
+  .scrolling_photo_reel {
+    height: 20em;
+    width: 11350px;
+    margin-bottom: 80px;
+  }
+  .scrolling_photo_reel img:hover {
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -o-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+   cursor: pointer;
+  }
+  /*scrolling photo animations*/
+   .first_scrolling_image {
+    -webkit-animation: bannermove 100s linear infinite;
+       -moz-animation: bannermove 100s linear infinite;
+        -ms-animation: bannermove 100s linear infinite;
+         -o-animation: bannermove 100s linear infinite;
+            animation: bannermove 100s linear infinite;
+   }
+  @keyframes "bannermove" {
+    0%{
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10000px;
+    }
+  }
+    @-moz-keyframes bannermove {
+     0% {
+      margin-left: 0px;
+     }
+     100% {
+      margin-left: -10000px;
+     }
+    }
+  @-webkit-keyframes "bannermove" {
+   0% {
+     margin-left: 0px;
+   }
+   100% {
+     margin-left: -10000px;
+   }
+  }
+ 
+  @-ms-keyframes "bannermove" {
+   0% {
+     margin-left: 0px;
+   }
+   100% {
+     margin-left: -10000px;
+   }
+  }
+ 
+  @-o-keyframes "bannermove" {
+   0% {
+     margin-left: 0px;
+   }
+   100% {
+     margin-left: -10000px;
+   }
   }
  
 /*FOOTER*/
