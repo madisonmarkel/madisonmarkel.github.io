@@ -1,18 +1,66 @@
 <style>
 /*PAGE LAYOUT*/
+html {
+  font-size: 1.2em;
+}
+@media screen and (min-width: 767px) {
+  /* line 2, /app/views/stylesheets/type.sass */
+  html {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1030px) {
+  /* line 2, /app/views/stylesheets/type.sass */
+  html {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1100px) {
+  /* line 2, /app/views/stylesheets/type.sass */
+  html {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1300px) {
+  /* line 2, /app/views/stylesheets/type.sass */
+  html {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1550px) {
+  /* line 2, /app/views/stylesheets/type.sass */
+  html {
+    font-size: 1.3em;
+  }
+}
   .site_container {
-    padding: 3em 3em 5em;
+    padding: 2em 3em 5em;
     margin: 0;
-    max-width: 70rem;
+  }
+  @media screen and (max-width: 767px) {
+    .site_container {
+      padding: 1em 1em 5em;
+    }
   }
   .text_width {
     max-width: 60rem;
     margin: 0 auto;
     line-height: 2;
-    padding:1em 2em 3em;
+    padding:1em 0em 1em;
+  }
+  @media screen and (max-width: 767px) {
+    .text_width {
+      max-width: 60rem;
+      padding: 1em 1em 1em;
+    }
   }
   .padded_text {
-    padding: 0 5em;
+    padding: 0 7em;
+  }
+  @media screen and (max-width: 767px) {
+    .padded_text {
+      padding: 0.5em
+    }
   }
 
 /*COLUMNS*/
@@ -144,6 +192,11 @@
   }
  h4 {
   text-transform: uppercase;
+  }
+  @media screen and (max-width: 767px) {
+    h1 h2 h3 h4 {
+      font-size: 1.2em;
+    }
   }
   .white_feature_text {
     color:white;
@@ -307,6 +360,11 @@
 .feature_work {
   padding: 4em 0;
   margin-bottom: 1em;
+}
+@media screen and (max-width: 767px) {
+  .feature_work {
+    padding: 2em 0;
+  }
 }
 .decay_feature {
   background: url("http://madisonmarkel.com/variations2_valley_angle.jpg") repeat fixed center center;
