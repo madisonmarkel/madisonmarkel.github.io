@@ -236,7 +236,7 @@ html {
 /*PHOTOS*/
 @media screen and (max-width: 767px) {
   .site_container img {
-    height: 17em;
+    height: 12em;
   }
 }
   .table_images {
@@ -248,6 +248,11 @@ html {
       max-height: 100em;
     }
   }
+@media screen and (max-width: 767px) {
+  .code_image {
+    display: none;
+  }
+}
   .photo_reel {
     display: flex;
     flex-direction: row;
@@ -356,12 +361,12 @@ html {
   .studio_image {
     height: 20em;
   }
-  @media screen and (max-width: 767px) {
+  /*@media screen and (max-width: 767px) {
     .studio_image {
       padding: 0em;
-      height: 14em;
+      height: 12em;
     }
-  }
+  }*/
 /*PAINT*/
 .feature_work {
   padding: 4em 0;
