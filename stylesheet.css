@@ -349,7 +349,7 @@ html {
   }
   @media screen and (max-width: 767px) {
     .index_header {
-      padding: 20em 0;
+      padding: 10em 0;
       background: url("http://madisonmarkel.com/index_background.jpg") no-repeat fixed center center;
     }
   }
