@@ -46,12 +46,12 @@ html {
     max-width: 60rem;
     margin: 0 auto;
     line-height: 2;
-    padding:1em 0em 1em;
+    padding:1em 0em 5em;
   }
   @media screen and (max-width: 767px) {
     .text_width {
       max-width: 60rem;
-      padding: 1em .75em 1em;
+      padding: 1em .75em 3em;
     }
   }
   .padded_text {
@@ -233,12 +233,21 @@ html {
   text-decoration: none;
  }
 
-/*PHOTOS*/
+/*GENERAL PHOTOS*/
 @media screen and (max-width: 767px) {
   .site_container img {
     height: 12em;
   }
 }
+  .small_images {
+    max-height: 13em;
+    padding: 1em;
+  }
+  @media screen and (max-width: 767px) {
+    .small_images {
+      max-height: 100em;
+    }
+  }
   .table_images {
     max-height: 20em;
     padding: 1em;
@@ -333,13 +342,6 @@ html {
      margin-left: -10000px;
    }
   }
- 
-/*FOOTER*/
-  footer {
-    background:#747971;
-    padding: 1.5em 0 3em;
-    border-top: 0.8em groove #c8d0c4;
-  }
 
 /*INDEX LANDING PAGE*/
  .index_header {
@@ -349,7 +351,7 @@ html {
   }
   @media screen and (max-width: 767px) {
     .index_header {
-      padding: 8em 0;
+      padding: 7em 0;
       background: url("http://madisonmarkel.com/index_background.jpg") no-repeat fixed center center;
     }
   }
@@ -367,16 +369,27 @@ html {
       height: 12em;
     }
   }*/
-/*PAINT*/
+
+/*FEATURES*/
 .feature_work {
-  padding: 4em 0;
+  padding: 3em 0;
   margin-bottom: 1em;
 }
 @media screen and (max-width: 767px) {
   .feature_work {
-    padding: 8em 0;
+    padding: 3em 0;
   }
 }
+.feature_work a {
+  color: white;
+  text-shadow:4px 4px 8px black;
+}
+.feature_image_width {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+/*PAINT*/
 .decay_feature {
   background: url("http://madisonmarkel.com/variations2_valley_angle.jpg") repeat fixed center center;
 }
@@ -392,10 +405,7 @@ html {
 .want_more_feauture {
   background: url("http://madisonmarkel.com/bon_iver_album_sketch.JPG") repeat fixed center center;
 }
-.feature_work a {
-  color: white;
-  text-shadow:4px 4px 8px black;
-}
+
 /*DESIGN*/
 .robo_gurlz_feature {
   background: url("http://madisonmarkel.com/robo_gurlsss3_sketch.jpg") repeat fixed center center;
@@ -407,7 +417,12 @@ html {
   background: url("http://madisonmarkel.com/code_feature.png") repeat fixed top center;
 }
 
-/* CONTACT*/
+/*ROBOGURLZ*/
+.smaller_image {
+  max-height: 13em;
+}
+
+/*CONTACT*/
 @media screen and (min-width: 767px) {
   .contact_form {
   padding: 0 5em;
@@ -436,5 +451,20 @@ input, textarea {
   width: 36em;
   height: 36em;
  }
+}
+
+/*FOOTER*/
+  footer {
+    background:#747971;
+    padding: 1.5em 0 3em;
+    border-top: 0.8em groove #c8d0c4;
+  }
+  .site_container footer {
+    padding: 2em 3em;
+  }
+@media screen and (max-width: 767px;) {
+  footer {
+    padding: 0;
+  }
 }
 </style>
