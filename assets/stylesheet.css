@@ -232,6 +232,11 @@
     .no_decoration {
       text-decoration: none;
     }
+    .bio_pic {
+      border-radius:6em;
+      margin:0 auto;
+      max-width:9em;
+    }
 
 /*GENERAL PHOTOS*/
     @media screen and (max-width: 767px) {
