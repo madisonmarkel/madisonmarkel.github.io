@@ -200,7 +200,7 @@
       }
       .white_feature_text {
         color:white;
-        text-shadow:4px 4px 8px black;"
+        text-shadow:4px 4px 8px black;
       }
       a {
         color:#380523;
@@ -356,17 +356,17 @@
 /*INDEX LANDING PAGE*/
     .index_header {
       padding: 13em 0;
-      background: url("./images/index_background.jpg") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/index_background.jpg") repeat fixed center center;
       /*background: #b9bcb8;*/
       }
       @media screen and (max-width: 767px) {
         .index_header {
           padding: 7em 0;
-          background: url("./images/index_background.jpg") no-repeat fixed center center;
+          background: url("http://www.madisonmarkel.com/images/index_background.jpg") no-repeat fixed center center;
         }
       }
       .landing_page_background {
-        background: url("./images/index_background.jpg") repeat fixed center center;
+        background: url("http://www.madisonmarkel.com/images/index_background.jpg") repeat fixed center center;
       }
 
 /*ABOUT*/
@@ -401,30 +401,30 @@
 
 /*PAINT*/
     .decay_feature {
-      background: url("./images/variations2_valley_angle.jpg") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/variations2_valley_angle.jpg") repeat fixed center center;
     }
     .petal_feature {
-      background: url("./images/spring_rain_feature.JPG") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/spring_rain_feature.JPG") repeat fixed center center;
     }
     .landscape_feature {
-      background: url("./images/yellow_mountains.jpg") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/yellow_mountains.jpg") repeat fixed center center;
     }
     .studies_feature {
-      background: url("./images/decaying_leaf.jpg") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/decaying_leaf.jpg") repeat fixed center center;
     }
     .want_more_feauture {
-      background: url("./images/bon_iver_album_sketch.JPG") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/bon_iver_album_sketch.JPG") repeat fixed center center;
     }
 
 /*DESIGN*/
     .robo_gurlz_feature {
-      background: url("./images/robo_gurlsss3_sketch.jpg") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/robo_gurlsss3_sketch.jpg") repeat fixed center center;
     }
     .graphics_feature {
-      background: url("./images/graphics_background.png") repeat fixed center center;
+      background: url("http://www.madisonmarkel.com/images/graphics_background.png") repeat fixed center center;
     }
     .websites_feature {
-      background: url("./images/code_feature.png") repeat fixed top center;
+      background: url("http://www.madisonmarkel.com/images/code_feature.png") repeat fixed top center;
     }
 
 /*ROBOGURLZ*/
