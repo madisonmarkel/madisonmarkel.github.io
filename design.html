@@ -1,72 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Design</title>
-<link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<!-- <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 <link rel="icon" href="./images/mm%20superhero%20logo.png">
 <link rel="stylesheet" type="text/css" a href="./assets/stylesheet.css">
-<script src="https://use.fontawesome.com/f9c1a1c097.js"></script>
+<script src="https://kit.fontawesome.com/c57491949f.js" crossorigin="anonymous"></script>
 </head>
- 
- <body>
-  <div class="logo_section">
-  <p class="text_center"><a href="http://www.madisonmarkel.com/"><img src="./images/mm%20superhero%20logo.png" class="logo"></a></p>
-</div>
 
-  <div class="nav_width">
-   <div class="navigation">
-    <nav class="app_nav">
+<body>
 
-      <!--div class="dropdown">
-        <a href="about.html">About</a> 
-        <div class="dropdown_content">
-          <a href="about.html">General</a>
-          <a href="CV.html">CV</a>
+	<div class="app_container">
+    <div class="bg_white">
+      <!-- navigation -->
+      <div id="main_nav" class="flex columns columns_2 align_center padding_tb_1">
+        <div id="nav_heading" class="flex col align_center">
+          <a href="http://www.madisonmarkel.com/"><img src="./images/mm%20superhero%20logo.png" class="logo" alt="Madison Markel"></a>
+          <h1 class="text_weight_400">Madison Markel</h1>
         </div>
-      </div-->    
-     <a href="http://www.madisonmarkel.com/about">About</a> 
-     <a href="http://www.madisonmarkel.com/paintings">Paint</a>
-     <a href="http://www.madisonmarkel.com/design">Design</a>
-     <a href="http://www.madisonmarkel.com/contact">Contact</a>
-    </nav>
-   </div>
+        <div id="nav_links" class="col text_right">
+          <a href="/about">About</a> 
+          <!-- <a href="/paintings">Paint</a> -->
+          <a href="/design" class="text_light_blue">
+            <i class="fa-xs fa-solid fa-circle"></i>
+            Design
+          </a>
+          <!-- <a href="/contact">Contact</a> -->
+        </div>
+      </div>
+
+      <!-- meat and potatoes -->
+      <!-- project 1 -->
+      <div class="columns columns_30_70 padding_lr_4 padding_tb_3">
+        <div class="col">
+          <img src="./images/winter.png" style="width: 100%; height: 100%" alt="Project One">
+        </div>
+        <div class="col">
+          <h2><span class="text_orange">Challenge:</span> Modernizing Design without Alienating Users</h2>
+          <p>Undoubtedly, a designer's constant challenge is keeping their application up-to-date, not just with new features, but with the ever-changing design landscape. Designers must ensure that their changes are recognizable to their existing user base but ensure their application remains relevant.</p>
+          <p class="text_right text_125">
+            <a href="#">
+              <span>See how I kept software usable but not outdated</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+      <!-- project 2 -->
+      <div class="columns columns_30_70 padding_lr_4 padding_tb_3">
+        <div class="col">
+          <img src="./images/spring.png" style="width: 100%; height: 100%" alt="Project One">
+        </div>
+        <div class="col">
+          <h2><span class="text_orange">Challenge:</span> Evolving Existing Features to Meet New Capabilities</h2>
+          <p>Applications are constantly evolving, from creating new possibilities to sunsetting functions. But the unique task of evolving current features with new tools and requirements require deep consideration and compassionate design.</p>
+          <p class="text_right text_125">
+            <a href="#">
+              <span>Learn what I did to maintain consistency with feature redefinition</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+      <!-- project 3 -->
+      <div class="columns columns_30_70 padding_lr_4 padding_tb_3">
+        <div class="col">
+          <img src="./images/fall.png" style="width: 100%; height: 100%" alt="Project One">
+        </div>
+        <div class="col">
+          <h2><span class="text_orange">Challenge:</span> Transferring Coded Design System to Figma</h2>
+          <p>Designers work in toolkits like Figma, developers work in <code>CSS</code>. I was lucky enough to be able to work quickly and implement my designs directly in code. However to meet other designers on their playground, a design system in Figma is necessary.</p>
+          <p class="text_right text_125">
+            <a href="#">
+              <span>Take a peek at my transfer process</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+      <!-- project 4 -->
+      <div class="columns columns_30_70 padding_lr_4 padding_tb_3">
+        <div class="col">
+          <img src="./images/summer.png" style="width: 100%; height: 100%" alt="Project One">
+        </div>
+        <div class="col">
+          <h2><span class="text_orange">Challenge:</span> Designing and Self-Hosting a Portfolio</h2>
+          <p>Every designer needs a portfolio, but paying for hosting fees and using another designer's template is lackluster. Designing, coding, maintenance, and hosting (not to mention DNS), can be tedious at best. However, as a front-end developer and designer, this was an opportunity to not just reflect on my work, but put it into practice.</p>
+          <p class="text_right text_125">
+            <a href="/about">
+              <span>Read more about me</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+      <footer class="padding_tb_1">
+        <div class="columns align_center align_items_end justify_content_end">
+          <div class="col"><h4><i class="fa-brands fa-linkedin text_blue"></i><a href="https://www.linkedin.com/in/madison-markel-11342391/" target="_blank"> LinkedIn</a></h4></div>
+          <div class="col"><h4><i class="fa-solid fa-earth-americas"></i>  Denver</h4></div>
+        </div>
+      </footer>
+    </div>
   </div>
-
- <div class="site_container">
- <div class="feature_image_width">
- <h1 class="text_center">Design</h1>
-
-  <a href="http://www.madisonmarkel.com/robo_gurlz" class="no_decoration"><div class="feature_work robo_gurlz_feature">
-  <h2 class="text_center white_feature_text">Robo Gurlz</h2>
-  </div></a>
-    <a href="http://www.madisonmarkel.com/graphics" class="no_decoration"><div class="feature_work graphics_feature">
-  <h2 class="text_center white_feature_text">Graphics</h2>
-  </div></a>
-  <a href="http://www.madisonmarkel.com/websites" class="no_decoration"><div class="feature_work websites_feature">
-  <h2 class="text_center white_feature_text">Website Design</h2>
-  </div></a>
-
-<div class="feature_work want_more_feauture"><h2 class="text_center white_feature_text">Want more?</h2>
-   <h3 class="text_center white_feature_text">Check out my <a href="http://www.madisonmarkel.com/sketches">sketchbook</a> and my <a href="http://www.madisonmarkel.com/inspirations">photo inspirations</a>.</h3></div></a>
-
- </div> 
- </div> 
- 
- <footer>
-  <div class="cols">
-  <div class="col_one_third">
-    <h3 class="text_center"><a href="https://www.instagram.com/maddieanns/" class="no_decoration white_feature_text" target="_blank">Instagram</a></h3>
-  </div>
-    <div class="col_one_third">
-    <h3 class="text_center"><a href="https://www.etsy.com/shop/texturedlines" class="no_decoration white_feature_text" target="_blank">Etsy</a></h3>
-  </div>
-    <div class="col_one_third">
-    <h3 class="text_center white_feature_text"><i class="fa fa-map-marker fa-1x" aria-hidden="true"></i>  Denver</h3>
-  </div>
-</div>
-</footer>
-
- </body>
+</body>
 </html>
